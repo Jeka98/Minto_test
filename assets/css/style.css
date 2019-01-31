@@ -166,18 +166,18 @@ section {
 @keyframes move-shadow {
   25%{
     border-radius: 60% 60%;
-    box-shadow:  3px 2px 0 5px #fff,
+    box-shadow:  3px 2px 0 5px #ffffff,
                  3px -2px 0 5px #d6d7d7 inset;
   }
   50%{
     border-radius: 60% 60%;
-    box-shadow:  8px 3px 0 0px #fff,
-                   -2px 3px 0 10px #d6d7d7 inset #fff;
+    box-shadow:  8px 3px 0 0px #ffffff,
+                   -2px 3px 0 10px #d6d7d7 inset #ffffff;
   }
   75%{
     border-radius: 50% 60%;
-    box-shadow:  -1px -6px 0 0px #fff,
-                 -3px -5px 0 10px #fff inset;
+    box-shadow:  -1px -6px 0 0px #ffffff,
+                 -3px -5px 0 10px #ffffff inset;
   } 
 }
 
@@ -214,6 +214,10 @@ section {
   font-size: 13px;
   color: #959595;
   font-style: inherit;
+}
+
+.customers {
+  margin-bottom: 61px;
 }
 
 .customers-text {
